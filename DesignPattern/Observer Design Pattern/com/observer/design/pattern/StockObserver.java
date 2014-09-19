@@ -1,3 +1,4 @@
+package com.observer.design.pattern;
 public class StockObserver implements Observer
 {
 	private double kghmPrice;

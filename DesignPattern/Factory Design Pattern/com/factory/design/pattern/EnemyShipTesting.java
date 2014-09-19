@@ -1,3 +1,4 @@
+package com.factory.design.pattern;
 import java.util.Scanner;
 
 public class EnemyShipTesting

@@ -1,3 +1,4 @@
+package com.observer.design.pattern;
 
 public class GrabStocks
 {

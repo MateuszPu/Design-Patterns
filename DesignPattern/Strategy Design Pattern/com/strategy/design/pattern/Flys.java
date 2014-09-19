@@ -1,3 +1,4 @@
+package com.strategy.design.pattern;
 // I'm decoupling : encapsulating the concept that varies
 
 public interface Flys

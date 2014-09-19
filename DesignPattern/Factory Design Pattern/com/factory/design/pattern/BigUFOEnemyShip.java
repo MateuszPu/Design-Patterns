@@ -1,3 +1,4 @@
+package com.factory.design.pattern;
 public class BigUFOEnemyShip extends UFOEnemyShip
 {
 	public BigUFOEnemyShip()

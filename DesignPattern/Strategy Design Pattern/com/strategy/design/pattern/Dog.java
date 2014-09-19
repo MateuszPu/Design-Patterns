@@ -1,3 +1,4 @@
+package com.strategy.design.pattern;
 public class Dog extends Animal
 {
 
