@@ -12,7 +12,7 @@ public class StockObserver implements Observer
 
 	public StockObserver(Subject stockGrabber)
 	{
-		this.stockGrabber = stockGrabber;
+		this.setStockGrabber(stockGrabber);
 		this.observerID = ++observerIDTracker;
 
 		System.out.println("New observer " + this.observerID);
@@ -32,7 +32,7 @@ public class StockObserver implements Observer
 
 	public void printThePrices()
 	{
-		System.out.println(observerID + "\nKGHM: " + kghmPrice + "\nTAURON: " + tauronPrice + "\nPZU: " + pzuPrice
-				+ "\n");
+		System.out.println(observerID + "\nKGHM: " + kghmPrice + "\nTAURON: " + tauronPrice
+				+ "\nPZU: " + pzuPrice + "\n");
 	}
 }
