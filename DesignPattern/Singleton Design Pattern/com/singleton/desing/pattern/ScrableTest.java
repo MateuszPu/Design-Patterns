@@ -10,20 +10,20 @@ public class ScrableTest
 	{
 		Singleton newInstance = Singleton.getInstance();
 
-		logger.error("Instance 1 ID : " + System.identityHashCode(newInstance));
+		logger.debug("Instance 1 ID : " + System.identityHashCode(newInstance));
 
-		logger.error(newInstance.getLetterList());
+		logger.debug(newInstance.getLetterList());
 
 		LinkedList<String> playerOneTiles = newInstance.getTiles(7);
 
-		logger.error("Player one :" + playerOneTiles);
-		logger.error(newInstance.getLetterList());
+		logger.debug("Player one :" + playerOneTiles);
+		logger.debug(newInstance.getLetterList());
 
 		Singleton instanceTwo = Singleton.getInstance();
-		logger.error("Instance 2 ID : " + System.identityHashCode(instanceTwo));
-		
+		logger.debug("Instance 2 ID : " + System.identityHashCode(instanceTwo));
+
 		LinkedList<String> playerTwoTiles = newInstance.getTiles(7);
-		logger.error("Player two :" + playerTwoTiles );
-		logger.error(newInstance.getLetterList());
+		logger.debug("Player two :" + playerTwoTiles);
+		logger.debug(newInstance.getLetterList());
 	}
 }

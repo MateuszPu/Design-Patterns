@@ -1,4 +1,5 @@
 package com.observer.design.pattern;
+
 public class StockObserver implements Observer
 {
 	private double kghmPrice;
@@ -12,7 +13,7 @@ public class StockObserver implements Observer
 
 	public StockObserver(Subject stockGrabber)
 	{
-		this.setStockGrabber(stockGrabber);
+		this.stockGrabber = stockGrabber;
 		this.observerID = ++observerIDTracker;
 
 		System.out.println("New observer " + this.observerID);

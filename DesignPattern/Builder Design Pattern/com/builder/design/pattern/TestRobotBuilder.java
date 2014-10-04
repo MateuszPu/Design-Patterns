@@ -15,6 +15,6 @@ public class TestRobotBuilder
 		robotEngineer.makeRobot();
 
 		Robot firstRobot = robotEngineer.getRobot();
-		logger.trace(firstRobot.toString());
+		logger.debug(firstRobot.toString());
 	}
 }
